@@ -6,7 +6,7 @@ import { fetchQuizQuestions } from './API';
 //Types
 import { QuestionState, Difficulty } from './API';
 
-type AnswerObject = {
+export type AnswerObject = {
   question: string;
   answer: string;
   correct: boolean;
